@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+int[] numeros = {1, 2, 3, 4, 5};
+
+
+foreach (int numero in numeros)
+{
+    Console.WriteLine(numero);  
+}
